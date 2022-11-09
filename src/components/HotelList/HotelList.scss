@@ -1,0 +1,38 @@
+.hotel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.hotel-preview {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E0E3EB;
+    border-radius: 12px;
+}
+
+.hotel-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .hotel-name {
+        font-weight: bold;
+    }
+    
+}
+
+.hotel-price {
+    width: 100%;
+    border-top: 1px solid #E0E3EB;
+}
+
+.star-icon {
+    width: 10px;
+    height: 10px;
+}
+.hotel-img {
+    width: 380px;
+    height: 237px;
+}

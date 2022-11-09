@@ -1,0 +1,20 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 10px 20px;
+  background-color:  #FFFFFF;
+  height: 92px;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 126px;
+  height: 20px;
+  object-fit: cover;
+}

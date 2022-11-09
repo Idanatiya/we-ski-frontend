@@ -1,0 +1,53 @@
+.root {
+    width: 180px;
+    display: inline-flex;
+    background-color: white;;
+  }
+  
+  .search-container {
+    border: 2px solid rgb(232, 232, 232);
+    padding: 9px 13px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px auto;
+    &:focus-within {
+      border: 2px solid #6f7eea;
+    }
+  }
+  
+  .input {
+    outline: 0;
+    border: 0;
+    width: 100%;
+  }
+  
+  .autocomplete-container {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid rgb(225, 225, 225);
+    border-top: none;
+    border-radius: 5px;
+    width: 180px;
+    position: absolute;
+    top: 62px;
+    z-index: 1;
+    background-color: white;
+  
+    .option-item {
+      cursor: pointer;
+      padding: 12px;
+      font-size: 20px;
+      transition: background-color 0.5s ease;
+      &:not(:last-child) {
+        border-bottom: 1px solid rgb(243, 238, 238);
+      }
+      &:hover {
+        background-color: rgb(225, 225, 225);
+      }
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
